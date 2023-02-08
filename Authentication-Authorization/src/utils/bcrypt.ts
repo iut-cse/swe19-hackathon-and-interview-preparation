@@ -10,7 +10,7 @@ async function hashPassword(password: string): Promise<string> {
 
     return hashPass
   } catch (error) {
-    logServiceError('hashPassword',FILENAME, String(error))
+    logServiceError('hashPassword', FILENAME, String(error))
 
     return 'Something wrong happen'
   }

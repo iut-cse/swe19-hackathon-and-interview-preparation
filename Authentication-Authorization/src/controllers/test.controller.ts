@@ -1,5 +1,5 @@
-import { Request, Response } from 'express';
-import { testService } from '../services';
+import { Request, Response } from 'express'
+import { testService } from '../services'
 
 const test = async (req: Request, res: Response): Promise<void> => {
   const response = {
@@ -24,7 +24,7 @@ const test = async (req: Request, res: Response): Promise<void> => {
 }
 
 const testSqaureFunction = async (num: number): Promise<number> => {
-  return num*num
+  return num * num
 }
 
 export default { test, testSqaureFunction }

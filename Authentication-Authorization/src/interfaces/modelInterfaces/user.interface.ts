@@ -1,5 +1,5 @@
-import { Date } from 'mongoose';
-import { CorrectedDocument } from '../../models/types';
+import { Date } from 'mongoose'
+import { CorrectedDocument } from '../../models/types'
 
 export interface User {
   name: string

@@ -26,9 +26,7 @@ async function findUserByUserId(userId: string): Promise<UserDoc | ModelError> {
   }
 }
 
-async function findUserByUserName(
-  username: string
-): Promise<boolean> {
+async function findUserByUserName(username: string): Promise<boolean> {
   try {
     const user = await UserModel.findOne({ username }).orFail()
     return true
@@ -54,7 +52,7 @@ const loginUser = async (
 ): Promise<any | ModelError> => {
   try {
     const user = await UserModel.findOne({
-      email
+      email,
     }).orFail()
     const isPassMatch = await bcryptUtils.comparePassword(
       user.password,

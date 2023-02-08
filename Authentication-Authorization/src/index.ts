@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
   res.send('Welcome from admin backend')
 })
 
-app.use('/api',testRouter)
+app.use('/api', testRouter)
 app.use('/api/v1/user', userRouter)
 
 app.listen(port, async () => {
