@@ -39,7 +39,7 @@ async function createUser(
       ...req.body,
       password: userHashPass,
       username,
-      role: ['user'],
+      role: ['swe19'],
     }
     const user = await userService.createUser(userObj)
     
