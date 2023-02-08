@@ -1,0 +1,233 @@
+{
+  "fileCounts": {},
+  "anys": [
+    {
+      "file": "config/default.ts",
+      "line": 2,
+      "character": 18,
+      "text": "config",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 5,
+      "character": 34,
+      "text": "message",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 5,
+      "character": 43,
+      "text": "timestamp",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 6,
+      "character": 8,
+      "text": "errorMessages",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 6,
+      "character": 24,
+      "text": "message",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 6,
+      "character": 32,
+      "text": "split",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 8,
+      "character": 27,
+      "text": "timestamp",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 8,
+      "character": 59,
+      "text": "errorMessages",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 8,
+      "character": 90,
+      "text": "errorMessages",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 8,
+      "character": 117,
+      "text": "errorMessages",
+      "kind": 1
+    },
+    {
+      "file": "logger/logger.ts",
+      "line": 8,
+      "character": 147,
+      "text": "errorMessages",
+      "kind": 1
+    },
+    {
+      "file": "src/utils/jwt.ts",
+      "line": 30,
+      "character": 15,
+      "text": "e",
+      "kind": 1
+    },
+    {
+      "file": "src/utils/jwt.ts",
+      "line": 30,
+      "character": 17,
+      "text": "message",
+      "kind": 1
+    },
+    {
+      "file": "src/utils/jwt.ts",
+      "line": 27,
+      "character": 11,
+      "text": "e",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 73,
+      "character": 8,
+      "text": "user",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 75,
+      "character": 6,
+      "text": "user",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 77,
+      "character": 13,
+      "text": "user",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 79,
+      "character": 21,
+      "text": "user",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 79,
+      "character": 26,
+      "text": "_id",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 80,
+      "character": 6,
+      "text": "name",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 80,
+      "character": 12,
+      "text": "user",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 80,
+      "character": 17,
+      "text": "name",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 81,
+      "character": 6,
+      "text": "role",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 81,
+      "character": 12,
+      "text": "user",
+      "kind": 1
+    },
+    {
+      "file": "src/controllers/user.controller.ts",
+      "line": 81,
+      "character": 17,
+      "text": "role",
+      "kind": 1
+    },
+    {
+      "file": "src/middlewires/auth.ts",
+      "line": 25,
+      "character": 17,
+      "text": "user",
+      "kind": 1
+    },
+    {
+      "file": "src/middlewires/auth.ts",
+      "line": 26,
+      "character": 12,
+      "text": "jwtRoles",
+      "kind": 1
+    },
+    {
+      "file": "src/middlewires/auth.ts",
+      "line": 26,
+      "character": 34,
+      "text": "user",
+      "kind": 1
+    },
+    {
+      "file": "src/middlewires/auth.ts",
+      "line": 26,
+      "character": 39,
+      "text": "role",
+      "kind": 1
+    },
+    {
+      "file": "src/middlewires/auth.ts",
+      "line": 27,
+      "character": 46,
+      "text": "jwtRoles",
+      "kind": 1
+    },
+    {
+      "file": "src/middlewires/auth.ts",
+      "line": 27,
+      "character": 55,
+      "text": "includes",
+      "kind": 1
+    },
+    {
+      "file": "src/index.ts",
+      "line": 6,
+      "character": 18,
+      "text": "config",
+      "kind": 1
+    }
+  ],
+  "percentage": 96.74465920651068,
+  "total": 983,
+  "covered": 951,
+  "uncovered": 32
+}

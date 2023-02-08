@@ -1,0 +1,53 @@
+# Test api homepage
+GET http://localhost:5000/
+###
+
+# Test api router, controller and service
+GET http://localhost:5000/api/test
+###
+
+# admin api router, create user
+POST http://167.172.79.117/backend-admin/api/v1/user/create
+Content-Type: application/json 
+
+{ 
+  "name": "test",
+  "nickName": "test",
+  "email": "test@gmail.com",
+  "password": "123456"
+}
+###
+
+# admin api router, create user
+POST http://localhost:5000/api/v1/user/create
+Content-Type: application/json 
+
+{ 
+  "name": "test",
+  "nickName": "test",
+  "email": "test@email.com",
+  "password": "123456"
+}
+###
+
+# admin api router, user login
+# @name userLogin
+POST http://localhost:5000/api/v1/user/login
+Content-Type: application/json 
+
+{ 
+  "email": "test@email.com",
+  "password": "123456"
+}
+###
+
+# admin api router, user login
+# @name userLogin
+POST http://167.172.79.117/backend-admin/api/v1/user/login
+Content-Type: application/json 
+
+{ 
+  "email": "test@email.com",
+  "password": "123456"
+}
+###
