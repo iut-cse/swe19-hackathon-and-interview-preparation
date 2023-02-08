@@ -57,6 +57,5 @@ describe('Auth', () => {
         expect(response.statusCode).toBe(400)
       })
     })
-    
   })
 })

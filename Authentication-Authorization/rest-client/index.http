@@ -4,6 +4,7 @@ GET http://localhost:5000/
 
 # Test api router, controller and service
 GET http://localhost:5000/api/test
+Authorization: {{userLogin.response.body.data.accessToken}}
 ###
 
 # admin api router, create user
@@ -23,9 +24,9 @@ POST http://localhost:5000/api/v1/user/create
 Content-Type: application/json 
 
 { 
-  "name": "test",
-  "nickName": "test",
-  "email": "test@email.com",
+  "name": "swe19",
+  "nickName": "swe19",
+  "email": "swe19@gmail.com",
   "password": "123456"
 }
 ###
@@ -36,7 +37,7 @@ POST http://localhost:5000/api/v1/user/login
 Content-Type: application/json 
 
 { 
-  "email": "test@email.com",
+  "email": "test@gmail.com",
   "password": "123456"
 }
 ###

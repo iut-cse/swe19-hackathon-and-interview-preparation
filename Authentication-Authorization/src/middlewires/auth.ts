@@ -24,6 +24,7 @@ const auth =
 
     if (decoded) {
       res.locals.user = decoded
+
       const jwtRoles = res.locals.user.role
       const roleSuccess = roles.some((val) => jwtRoles.includes(val))
       if (roleSuccess) {

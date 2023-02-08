@@ -4,7 +4,7 @@ import jwt from 'jsonwebtoken'
 const privateKey = config.get<string>('privateKey')
 const publicKey = config.get<string>('publicKey')
 
-type JwtUserTokenObject = { userId: string; name: string, role: string[] }
+type JwtUserTokenObject = { userId: string; name: string; role: string[] }
 
 function signJwt(
   object: JwtUserTokenObject,

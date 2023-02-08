@@ -1,17 +1,67 @@
-
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <title>user.controller.ts</title>
-      <link href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" type="text/css" rel="stylesheet">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/mode/javascript/javascript.min.js" type="text/javascript" charset="utf-8"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.min.css" type="text/css" rel="stylesheet">
-<script src="../../../assets/source-file.js" type="text/javascript" charset="utf-8"></script>
-<link href="../../../assets/source-file.css" type="text/css" rel="stylesheet">
-    </head>
-    <body>
-    <div style="margin-top:3em" class="ui container"><h1 class="ui header"><a href="../../../index.html">TypeScript coverage report</a></h1><table style="margin-top:2em" class="ui celled table"><thead class=""><tr class=""><th class="">Filename</th><th class="">Percent</th><th class="">Threshold</th><th class="">Total</th><th class="">Covered</th><th class="">Uncovered</th></tr></thead><tbody class=""><tr class="positive"><td class="">src/controllers/user.controller.ts</td><td class="">93.21%</td><td class="">80%</td><td class="">162</td><td class="">151</td><td class="">11</td></tr></tbody></table><textarea id="editor" readonly="" style="margin-top:3em">import { Response, Request } from &#x27;express&#x27;
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>user.controller.ts</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/mode/javascript/javascript.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.2/codemirror.min.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <script
+      src="../../../assets/source-file.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    <link
+      href="../../../assets/source-file.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div style="margin-top: 3em" class="ui container">
+      <h1 class="ui header">
+        <a href="../../../index.html">TypeScript coverage report</a>
+      </h1>
+      <table style="margin-top: 2em" class="ui celled table">
+        <thead class="">
+          <tr class="">
+            <th class="">Filename</th>
+            <th class="">Percent</th>
+            <th class="">Threshold</th>
+            <th class="">Total</th>
+            <th class="">Covered</th>
+            <th class="">Uncovered</th>
+          </tr>
+        </thead>
+        <tbody class="">
+          <tr class="positive">
+            <td class="">src/controllers/user.controller.ts</td>
+            <td class="">93.21%</td>
+            <td class="">80%</td>
+            <td class="">162</td>
+            <td class="">151</td>
+            <td class="">11</td>
+          </tr>
+        </tbody>
+      </table>
+      <textarea id="editor" readonly="" style="margin-top: 3em">
+import { Response, Request } from &#x27;express&#x27;
 import config from &#x27;config&#x27;
 import userService from &#x27;../services/user.service&#x27;
 import { bcryptUtils, jwtUtils, randomTextUtils } from &#x27;../utils&#x27;
@@ -111,8 +161,20 @@ const userLogin = async (
 }
 
 
-export default { createUser,userLogin }</textarea><pre id="annotations" style="display:none">[{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:73,&quot;character&quot;:8,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:75,&quot;character&quot;:6,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:77,&quot;character&quot;:13,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:79,&quot;character&quot;:21,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:79,&quot;character&quot;:26,&quot;text&quot;:&quot;_id&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:80,&quot;character&quot;:6,&quot;text&quot;:&quot;name&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:80,&quot;character&quot;:12,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:80,&quot;character&quot;:17,&quot;text&quot;:&quot;name&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:81,&quot;character&quot;:6,&quot;text&quot;:&quot;role&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:81,&quot;character&quot;:12,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:81,&quot;character&quot;:17,&quot;text&quot;:&quot;role&quot;,&quot;kind&quot;:1}]</pre></div>
-    <p class="footer-text">TypeScript Coverage Report generated by <a href="https://github.com/plantain-00/type-coverage">type-coverage</a> and <a href="https://github.com/alexcanessa/typescript-coverage-report">typescript-coverage-report</a> at Sat, 28 Jan 2023 00:59:12 GMT</p>
-    </body>
-  </html>
-  
+export default { createUser,userLogin }</textarea
+      >
+      <pre id="annotations" style="display: none">
+[{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:73,&quot;character&quot;:8,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:75,&quot;character&quot;:6,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:77,&quot;character&quot;:13,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:79,&quot;character&quot;:21,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:79,&quot;character&quot;:26,&quot;text&quot;:&quot;_id&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:80,&quot;character&quot;:6,&quot;text&quot;:&quot;name&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:80,&quot;character&quot;:12,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:80,&quot;character&quot;:17,&quot;text&quot;:&quot;name&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:81,&quot;character&quot;:6,&quot;text&quot;:&quot;role&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:81,&quot;character&quot;:12,&quot;text&quot;:&quot;user&quot;,&quot;kind&quot;:1},{&quot;file&quot;:&quot;src/controllers/user.controller.ts&quot;,&quot;line&quot;:81,&quot;character&quot;:17,&quot;text&quot;:&quot;role&quot;,&quot;kind&quot;:1}]</pre
+      >
+    </div>
+    <p class="footer-text">
+      TypeScript Coverage Report generated by
+      <a href="https://github.com/plantain-00/type-coverage">type-coverage</a>
+      and
+      <a href="https://github.com/alexcanessa/typescript-coverage-report"
+        >typescript-coverage-report</a
+      >
+      at Sat, 28 Jan 2023 00:59:12 GMT
+    </p>
+  </body>
+</html>
