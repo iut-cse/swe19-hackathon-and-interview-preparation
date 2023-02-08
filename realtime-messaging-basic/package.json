@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "immer": "^9.0.16",
+    "socket.io-client": "^4.5.4"
+  }
+}
